@@ -116,8 +116,15 @@ Shrek = {
    "edad": 108,
    "rol": "defensa",
 }
+mastantuano = {
+   "nombre": "franco Mastantuano",
+   "talle": "M",
+   "edad": 19,
+   "rol": "delantero",
+}
+
 jugadores_diccionarios = [
-  riquelme, messi, cristiano, montiel, mbappe, pedri, pezzella,
+  Shrek, mastantuano, riquelme, messi, cristiano, montiel, mbappe, pedri, pezzella,
   dibu_martinez, courtois, marquinhos, van_dijk, de_bruyne, modric,
 ]
 
