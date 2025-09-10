@@ -110,6 +110,12 @@ benzema = {
    "rol": "delantero",
 }
 
+Shrek = {
+   "nombre": "Julian Alvarez",
+   "talle": "XL",
+   "edad": 108,
+   "rol": "defensa",
+}
 mastantuano = {
    "nombre": "franco Mastantuano",
    "talle": "M",
@@ -118,7 +124,7 @@ mastantuano = {
 }
 
 jugadores_diccionarios = [
-  mastantuano, riquelme, messi, cristiano, montiel, mbappe, pedri, pezzella,
+  Shrek, mastantuano, riquelme, messi, cristiano, montiel, mbappe, pedri, pezzella,
   dibu_martinez, courtois, marquinhos, van_dijk, de_bruyne, modric,
 ]
 
