@@ -35,32 +35,18 @@ class Equipo:
     print(self.arquero)
     
     
-  # Hoy refactorizamos esta:
+  # TODO: Completar esta función
   def reportar_problemas(self):
     problemas = []
     
-    # Nos fijamos si entre los delanteros, defensas y mediocampistas si hay alguno que no esté en su rol
-    posiciones = ["delantero", "defensa", "mediocampista"]
-    for posicion in posiciones:
-      # for jug in getattr(self, posicion + 's'):
-      for jug in _______:
-        
-        if jug.rol != posicion:
-          problemas.append(f'{jug.nombre} tiene rol {jug.rol} pero está jugando de {posicion}')
-          
-        if not(jug.botines):
-          problemas.append(f'{jug.nombre} no tiene botines!')
-          
-        elif jug.botines.talle != jug.talle:
-          problemas.append(f'{jug.nombre} calza talle {jug.talle} pero sus botines son {jug.botines.talle}!')
+    # Para cada jugador fijarse si los botines le coinciden el talle
+    # for _____:
+    #   if ______:
+    #     problemas.append(f'{jug.nombre} calza talle {jug.talle} pero sus botines son {jug.botines.talle}!')
     
     # Para el arquero:
-    if self.arquero.rol != "arquero":
-      problemas.append(f'{self.arquero.nombre} está de arquero pero es {self.arquero.rol}')
-    if not(self.arquero.botines):
-      problemas.append(f'{self.arquero.nombre} no tiene botines!')
-    elif self.arquero.botines.talle != self.arquero.talle:
-      problemas.append(f'{self.arquero.nombre} calza talle {self.arquero.talle} pero sus botines son {self.arquero.botines.talle}!')
+    # if __________:
+    #   problemas.append(f'{self.arquero.nombre} calza talle {self.arquero.talle} pero sus botines son {self.arquero.botines.talle}!')
     
     return problemas
   
