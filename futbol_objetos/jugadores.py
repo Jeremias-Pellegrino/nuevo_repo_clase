@@ -118,7 +118,7 @@ mastantuano = {
 }
 
 jugadores_diccionarios = [
-  riquelme, messi, cristiano, montiel, mbappe, pedri, pezzella,
+  mastantuano, riquelme, messi, cristiano, montiel, mbappe, pedri, pezzella,
   dibu_martinez, courtois, marquinhos, van_dijk, de_bruyne, modric,
 ]
 
